@@ -1,0 +1,11 @@
+@news_backend_HostAddress = http://localhost:5004
+
+GET {{news_backend_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{news_backend_HostAddress}}/todos/1
+Accept: application/json
+
+###
